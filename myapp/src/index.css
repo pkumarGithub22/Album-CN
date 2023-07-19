@@ -1,0 +1,151 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f3e9e9;
+}
+a{
+  color: unset;
+  text-decoration: none;
+}
+input{
+  outline: none;
+  font-size: 18px;
+  width: 100%;
+}
+button{
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+
+/* Navbar component style */
+.navbar{
+  width: 100%;
+  padding: 20px 10px;
+  background-color: #2a2929;
+  /* border-radius: 15px; */
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+}
+.navbar h2{
+  background-color: #f5f2f8;
+  width: fit-content;
+  padding: 2px;
+}
+
+.navbar button{
+  background-color: transparent;
+  color: #3a0096;
+  border: 2px solid #5f03f4;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.navbar button:hover{
+  background-color:#f6391c;
+  color: white;
+}
+
+/* AlbumsList component style */
+.albums-list{
+  width: 70%;
+  margin: auto;
+  padding-top: 73px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* List component style */
+.list{
+  width: 310px;
+  height: 200px;
+  background-color: #f2970e;
+  margin-bottom:5px ;
+  color: white;
+  padding: 10px;
+  display: flex;
+  border-radius: 15px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.list h3{
+  text-align: center;
+  text-transform: capitalize;
+}
+.button-group{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.update-btn{
+  background-color: black;
+  color: white;
+  border: 0px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.update-btn:hover{
+  background-color: white;
+  color: black;
+}
+.delete-btn{
+  cursor: pointer;
+  border: 0px;
+  padding: 10px 20px;
+  background-color:#3a0096;
+  color: white;
+}
+.delete-btn:hover{
+  color:#4be8da;
+  background-color:white;
+}
+
+/* UpdateAlbum component style */
+.update-album{
+  width: 350px;
+  margin: auto;
+  padding-top: 73px;
+  color: white;
+}
+.form-container{
+  background-color: #478AC9;
+  padding: 10px;
+  margin-top: 50px;
+}
+.inp-container{
+  margin: 10px;
+}
+.form-container button{
+  background-color: green;
+  padding: 10px 20px;
+  color: white;
+}
+
+/* addAlbum container style */
+.addalbum-container{
+  color: white;
+  padding-top: 73px;
+  width: 350px;
+  /* border-radius: 15px;/ */
+  margin: auto;
+}
+.addalbum-form{
+  padding: 10px;
+  background-color: #f27d2e;
+  margin-top: 50px;
+  border-radius: 15px;
+}
+.addalbum-form button{
+  background-color: rgb(39, 131, 251);
+  padding: 10px 20px;
+  color: white;
+}
